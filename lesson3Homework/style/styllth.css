@@ -1,0 +1,14 @@
+h1{
+    color: hsl(20, 79%, 56%);
+    text-align: center;
+}
+p{
+    color: rgb(0, 157, 255);
+    text-align: center;
+}
+#Airport, #restaurants, #dishes {
+    border-radius: 15%;
+    height: 600px;
+    width: 800px;
+    border: 2px solid black
+}
