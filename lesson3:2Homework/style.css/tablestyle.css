@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+th {
+    background-color: rgb(75, 180, 237);
+}
+td {
+    background-color: rgb(231, 219, 159);
+}
+td, th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+}
+tr {
+    border: 2px solid black;
+}
