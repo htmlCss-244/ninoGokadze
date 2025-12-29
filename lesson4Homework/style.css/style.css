@@ -1,0 +1,47 @@
+body {
+    font-family: "BBH Hegarty", sans-serif;
+    background-color: #f8e7e7;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: red;
+}
+
+p {
+    line-height: 1.6;
+    color:black;
+}
+
+.club-section {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+#Football, #footballClub, #ClubLogo {
+    width: 300px;
+    display: block;
+    margin: 10px 0;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
