@@ -1,0 +1,144 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: rgb(192, 185, 237);
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    text-align: center;
+}
+
+nav a {
+    color: red;
+    text-decoration: none;
+    align-items: center;
+    margin: auto 80px;
+}
+
+nav :hover{
+    background-color: rgb(157, 0, 255);
+    transform: scale(1.2);
+    color: rgb(255, 255, 255);
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px 16px;
+}
+
+th {
+    background-color: #9e83fa;
+    color: black;
+}
+ tr:hover {
+    color: #f90000;
+ }
+
+.side {
+    position: fixed;
+    left: 0;
+    top: 220px;
+    transform: translate(-50%, -50%);
+}
+
+.side a {
+    position: absolute;
+    font-size: 17px;
+    text-align: left;
+    padding: 15px 25px;
+    color: aqua;
+    width: 100px;
+    transition: 0.3s;
+    left: -100px;
+}
+
+.side a img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.side a :hover {
+    left: 0
+}
+
+#Facebook {
+    top: 20px;
+    background-color: rgb(51, 102, 211);
+}
+
+#Instagram {
+    top: 70px;
+    background-color: rgb(193, 157, 226);
+}
+
+#Youtube {
+    top: 120px;
+    background-color: rgb(67, 21, 21);
+}
+
+footer{
+    background-color:rgb(172, 162, 239) ;
+    display: flex;
+    justify-content: space-between;
+}
+footer div {
+    margin: 80px;
+}
+.Link a {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.News {
+    text-align: center;
+}
+
+.type {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+
+}
+
+.Sub {
+    width: 15opx;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 2px solid red;
+    color: red;
+}
+
+.Contact {
+    text-align: center;
+}
