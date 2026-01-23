@@ -1,0 +1,57 @@
+body {
+    font-family: "Playfair Display", serif;
+    background-color: #c8d6eb;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.ImgList {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.imgAndList img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px 16px;
+}
+
+th {
+    background-color: #035206;
+    color: white;
+}
+ tr:hover {
+    color: #0da47c;
+ }
+.ImgList div:hover{
+    transform: scale(1.2);
+}
+
+.form input:hover {
+    background-color: blue;
+}
+.form input :active {
+    transform: scale(1.2);
+    background-color: blueviolet;
+}
